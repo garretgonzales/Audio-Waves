@@ -1,23 +1,46 @@
+
+
+
 # Sound-Visualizer
+***
 
-<h4>Goal:</h4> Create a Audio Visualizer that works with any local audio file uploaded to page.
+**Create a Audio Visualizer that works with any local audio file uploaded to page.**
 
-<h4>Technologies:</h4>
+**Technologies:**
 Pure JavaScript, HTML5, and Web Audio API for visualization.
 
----------------------------------
-<h4>MVP:</h4>
+-----------
 
-- [ ] Change frequency sensitivity for more responsive behavior.
+![audio-waves](https://media.giphy.com/media/fAEKrTAx8F7qhXUEBt/giphy.gif)
+
+**Purpose:** Quick design practice in effort to become more productive with basic HTML/CSS without the use of external libraries.
+
+-----------
+
+**MVP:**
+
+- [x] User can see visual of audio
+- [x] User can upload audio from personal file system.
+- [x] User can change color scheme of visual.
+- [x] User can change intensity of visual based on audio level.
+
+***
+
+
+**In-Progess:**
+
+- [ ] Change frequency sensitivity for more responsive behavior without need to maximize volume.
+
+- [ ] Deploy app!
 
 - [ ] Mobile friendly / Dynamic.
 
-![Lcl](https://i.imgur.com/8l2gZev.png)
 
 
-<h4>Future Updates:</h4>
+***
 
-- [ ] Deploy app!
+
+**Future Updates:**
 
 - [ ] Visualizer Style Modes: Be able to change the style of the visualizer UI into different modes, i.e. Circular, Full Page, etc.
 
@@ -33,4 +56,4 @@ Pure JavaScript, HTML5, and Web Audio API for visualization.
 
 - [ ] Animation Fades between route loads.
 
-- [ ] Allow for current file download (DANGER - must be free content).
+- [ ] Allow for current file download (DANGER - must be free content)
