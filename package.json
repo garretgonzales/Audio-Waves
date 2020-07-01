@@ -1,0 +1,19 @@
+{
+  "name": "audio-waves",
+  "version": "1.0.0",
+  "description": "<h4>Goal:</h4> Create a Audio Visualizer that works with any local audio file uploaded to page.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garretgonzales/Audio-Waves.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garretgonzales/Audio-Waves/issues"
+  },
+  "homepage": "https://github.com/garretgonzales/Audio-Waves#readme"
+}

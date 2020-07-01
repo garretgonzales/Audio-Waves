@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    </link>
+
+</head>
+<title>Audio ~ Waves</title>
+
+<body onload="initialize()">
+    <canvas id="circlecnv"></canvas>
+    <div id="UI" onmouseover="mouseOverUI()">
+        <canvas id="topcnv"></canvas>
+        <div class="topBar">
+            <audio controls id="audio"></audio>
+            <input id="audioFile" type="file" accept="Audio/*" capture />
+
+            <select id="colorSelect" onchange="changeColor()">
+                <option value="0">Color Spectrum</option>
+                <option value="1">Red</option>
+                <option value="2">Orange</option>
+                <option value="3">Yellow</option>
+                <option value="4">Green</option>
+                <option value="5">Blue</option>
+                <option value="6">Purple</option>
+            </select>
+        </div>
+    </div>
+    <p></p>
+    <canvas class="visualizer" id="cnv1" width="1024" height="350"></canvas>
+</body>
+<script src="app.js"></script>
+
+
+</html>
