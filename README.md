@@ -2,10 +2,7 @@
 
 
 # Sound-Visualizer
-***
 
-
- # ale
 
 
 **Create a Audio Visualizer that works with any local audio file uploaded to page.**
